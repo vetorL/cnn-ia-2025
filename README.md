@@ -67,3 +67,10 @@ Implementar uma rede neural convolucional (CNN) com uso permitido de bibliotecas
    - Testes com MNIST ou conjunto CARACTERES.
 
    - Matriz de confusão para avaliar o resultado.
+
+## Gerenciamento de bibliotecas
+
+Utilize `pip install -r requirements.txt` para instalar todas as bibliotecas necessárias.
+
+Caso haja a necessidade de introduzir alguma outra biblioteca, utilize
+`pip freeze > requirements.txt` (após seu pip install) para adicionar a dependência à lista de requisitos do programa.
