@@ -74,3 +74,19 @@ Utilize `pip install -r requirements.txt` para instalar todas as bibliotecas nec
 
 Caso haja a necessidade de introduzir alguma outra biblioteca, utilize
 `pip freeze > requirements.txt` (após seu pip install) para adicionar a dependência à lista de requisitos do programa.
+
+## Ambiente Virtual
+
+1. **Crie o Ambiente Virtual**
+
+```bash
+python3 -m venv .venv
+```
+
+2. **Ative o Ambiente Virtual**
+
+```bash
+source .venv/bin/activate
+```
+
+Para desativar: `deactivate`
